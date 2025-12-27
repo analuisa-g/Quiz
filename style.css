@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Jersey+10&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #027373;
+    color: #01261F;
+    font-weight: 400;
+    font-family: "cabin", sans-serif;
+    
+ }
+    
+header{
+    padding: 2rem;
+    background-color: #593122;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+
+h2{
+    color: #A6A4A5;
+    font-size: 1.5rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #CCD595;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #CCD595;
+    outline: none;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #01261F;
+}
+
+select{
+    cursor: pointer;
+    background-color: #A6A4A5;
+    color: #01261F;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img{
+    width:5rem;
+    border-radius: 30px;
+}
+
+figcaption{
+    padding: 0.6rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #A6A4A5;
+    color: #01261F;
+    padding: 0.5rem;
+}
+
+td{
+    color: #01261F;
+    text-align: center;
+    padding: 0.5rem;
+    border-color: #027373;
+}
+
+details{
+    background-color: #593122;
+    border-radius: 30px;
+    padding: 0.6rem;
+}
+
+summary{
+    color: #01261F;
+    margin: 0.6rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+
+li{
+    padding: 0.5rem;
+}
+
+fieldset{
+    border: 2px solid #CCD595;
+    border-radius: 30px;
+    padding: 0.8rem;
+}
+
+legend{
+    color: #01261F;
+    padding: 0 0.5rem;
+}
+
+textarea{
+    background-color: transparent;
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid #CCD595;
+}
+
+textarea::placeholder{
+    color: #01261F;
+    padding: 0.8rem;
+}
+
+button{
+    background-color: #CCD595;
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #593122;
+    padding: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #01261F;
+}
+
+.paragrafo-footer{
+    text-align: end;
+    color: #01261F;
+    padding: 0.2rem;
+}
